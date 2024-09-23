@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Android";
+  src: url(pacote-projeto-d010/fontes/idroid.otf) format("OpenType");
+}
+
+body {
+  background-color: #84e0ad;
+}
+
+header {
+  background: linear-gradient(to bottom, #3ad17e, #1a5d38);
+  color: white;
+  padding: 0.8em;
+}
+
+header h1 {
+  font-family: "Trebuchet MS", "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  margin: 0.5em;
+  text-shadow: 2px 2px black;
+}
+
+header p {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  text-shadow: 1px 0.5px black;
+  margin: 0.7em 0 0.7em 0;
+}
+
+header ul {
+  text-align: left;
+}
+
+header ul li {
+  display: inline;
+  font-family: Verdana, sans-serif;
+  margin: 0 3em 0 0;
+}
+
+main {
+  background-color: white;
+  margin: 0 18% 1em;
+  padding: 1em 2em 0 2em;
+  min-width: 30em;
+  border-radius: 0 0 1em 1em;
+  box-shadow: 1px 1px 6px 0px black;
+}
+
+main span {
+  color: green;
+}
+
+main span:hover {
+  cursor: pointer;
+  user-select: none;
+}
+
+main img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1 auto;
+}
+
+main figcaption {
+  text-indent: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+main section {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  main {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+main h1 {
+  font-family: "Android";
+  text-align: justify;
+  color: #1a5d38;
+  margin: 0.3em 0 0.5em 0;
+  font-size: 2em;
+}
+main h2 {
+  font-family: "Android";
+  text-align: justify;
+  color: #1a5d38;
+  margin: 0.3em 0 0.5em 0;
+  background-image: linear-gradient(to right, #3cc97c94, #fff);
+  text-indent: 0.5em;
+}
+
+main p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.05em;
+  text-indent: 2em;
+  font-weight: bold;
+  margin: 1em 0 1em 0;
+}
+
+main div.fundo-video {
+  background-color: #1a5d38; /* Cor de fundo verde */
+  text-align: center;
+  padding: 1em; /* Espaço ao redor do vídeo */
+}
+
+main div.fundo-video iframe {
+  width: 100%;
+  max-width: 90%; /* Mantém um espaçamento ao redor do vídeo */
+  height: auto;
+  aspect-ratio: 16 / 9; /* Mantém a proporção 16:9 */
+}
+
+main div.extra {
+  margin-top: 2em;
+  background-color: #caffe3;
+  border-radius: 0.5em 0.5em 0.5em 0.5em;
+}
+
+main div.extra h3 {
+  padding: 0.5em;
+  color: white;
+  background-color: #009c46;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 0.5em 0.5em 0 0;
+}
+
+main div.extra p {
+  padding: 0em 1em 1em 0.5em;
+}
+main div.extra ul {
+  text-decoration: underline;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+main div.extra ul li {
+  margin-left: 2em;
+  font-weight: bold;
+}
+main div.extra ul div.lista-1 {
+  margin-right: 2em; /* Menos margem à direita */
+}
+
+main div.extra ul div.lista-2 {
+  margin-left: 10em; /* Menos margem à esquerda */
+}
+
+footer span {
+  font-weight: bold;
+}
